@@ -1,8 +1,109 @@
   /* Remove the navbar's default margin-bottom and rounded borders */
-  .navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-  }
+body{
+  padding-top: 50px;
+}
+h1{
+  font-family: 'Indie Flower', cursive;
+  
+}
+
+ h4, h3{
+  line-height: 1.7em;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Indie Flower', cursive;
+}
+.myContainer-fluid {
+  border-style: solid;
+  border-width: medium;
+  border-radius: 5%;
+  margin: 2%;
+}
+.lang{
+  color: blue;
+  float:right;
+  margin-right:1vw;
+}
+
+.navbar-default{
+  background: #02543D;
+border-radius: 0;
+border:0;
+}
+
+.navbar-default .navbar-nav {
+  /*text-align: right;*/
+  float: right;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color:white;
+}
+
+.navbar-default .navbar-nav > .active{
+    color: #white;
+    background: #002400;
+}
+.navbar-default .navbar-nav > .active > a{
+  background: #002400;
+  color: white;
+}
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background: #007320;
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: #00D63C;
+}
+
+.navbar-default ul{
+  color: white;
+}
+
+
+.navbar .navbar-nav {
+  color: white;
+}
+.navbar .navbar-collapse{
+  color: white;
+  text-align: center;
+}
+.my-navbar .navbar-brand{
+  /*font-size: 8vh;*/
+  color: white;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.my-navbar .navbar-collapse .nav .active{
+  background: white;
+border-radius: 0;
+border:0;
+}
+
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img{
+width: 100%; /* use this, or not */
+margin: auto;
+}
+
+img {
+  max-width: 90vw;
+    border-radius: 8px;
+}
+
+.logo{
+
+}
+.logo p{
+  margin:2vh;
+  color: white;
+  font-size: 5vh;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
 
   /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
   .row.content {height: 450px}
